@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffeedf;
+}
+
+.john {
+    background-color: #fff;
+    width: 236px;
+    height: 362px;
+    padding: 27px;
+
+}
+
+.rita {
+    background-color: #fff;
+    width: 236px;
+    height: 362px;
+    padding: 27px;
+}
+
+.angela {
+    background-color: #fff;
+    width: 236px;
+    height: 362px;
+    padding: 27px;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    margin-left: -500px;
+    margin-top: -208px;
+    flex-direction: row;
+    gap: 62px;
+    width: 1000px;
+    height: 416px
+}
+
+h2{
+    color: #33793f;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;
+}
+
+h6 {
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin: 15px auto 25px
+
+}
+
+p {
+    color: #999;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+}
+
+
+@media screen and (max-width: 600px){
+    .container {
+        flex-direction: column;
+        width: 290px;
+        height: 1500px;
+        margin-left: -145px;
+    } 
+}
